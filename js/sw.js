@@ -24,6 +24,10 @@ self.addEventListener('fetch', function(e) {
   );
 });
 
-serviceWorkerContainer.register(scriptURL, options)
-  .then(function(serviceWorkerRegistration) { /* ... */ });
-  
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js').catch((registrationError) => {
+      console.error('ServiceWorker registration failed: ', registrationError)
+    })
+  })
+}

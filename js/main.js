@@ -14,3 +14,6 @@ window.onload = () => {
                .register('./sw.js');
     }
   }
+
+  navigator.serviceWorker.register('/service-worker.js')
+  
