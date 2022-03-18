@@ -23,3 +23,7 @@ self.addEventListener('fetch', function(e) {
     })
   );
 });
+
+serviceWorkerContainer.register(scriptURL, options)
+  .then(function(serviceWorkerRegistration) { /* ... */ });
+  
