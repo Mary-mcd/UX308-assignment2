@@ -1,26 +1,21 @@
 {
-  "name": "Magic 8 Ball",
-  "short_name": "Magic",
-  "icons": [
-    {
-      "src": "img/android-chrome-192x192.png",
-      "sizes": "192x192",
+  "name": "Mary's Portfolio",
+  "short_name": "Portfolio",
+  "icons": [{
+    "src": "Mary.png",
+      "sizes": "128x128",
       "type": "image/png"
-    },
-    {
-      "src": "img/android-chrome-512x512.png",
-      "sizes": "512x512",
+    }, {
+      "src": "Cherryblossom.png",
+      "sizes": "144x144",
       "type": "image/png"
-    },
-    {
-      "src": "img/maskable_icon.png",
-      "sizes": "196x196",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
+    }, {
+      "src": "logo.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }],
   "lang": "en-US",
-  "start_url": "index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
