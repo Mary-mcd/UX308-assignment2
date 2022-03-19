@@ -1,12 +1,12 @@
 {
-    "name": "Mary's Profile",
-    "short_name": "Profile",
+    "name": "Mary's Portfolio",
+    "short_name": "Portfolio",
     "icons": [{
-      "src": "images/hello-icon-128.png",
+      "src": "Mary.png",
         "sizes": "128x128",
         "type": "image/png"
       }, {
-        "src": "images/hello-icon-144.png",
+        "src": "Cherryblossom.png",
         "sizes": "144x144",
         "type": "image/png"
       }, {
